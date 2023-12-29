@@ -38,10 +38,11 @@ function Home() {
                         <Heading size='lg'>Account Abstracted Wallet (Polygon Mumbai)</Heading>
 
                         <Box py='2' >
-                            <Text fontSize={"large"} margin={"2"} fontFamily={"sans-serif"}> Walli is an ERC4337 Account Abstracted wallet, a smart contract account which holds funds for user and performs transactions on behalf of user.</Text>
-                            <br />
+                            <Text fontSize={"large"} margin={"2"} fontFamily={"sans-serif"}> Walli is an ERC4337 Account Abstracted wallet, a smart contract account which holds funds for users and performs transactions on behalf of user. 
+                                <br />A guarded, lockable, recoverable, upgradeable wallet with 2FA.
+                            </Text>
                             <Box textDecoration={"underline"} fontWeight={"bold"} fontSize={"md"} padding={"1"}>Note: Switch to "Polygon Mumbai" network. Currently only "Polygon Mumbai" is supported</Box>
-                            <Button variant='solid' colorScheme='blue' onClick={handleSmartAccount} marginBottom={"5"} marginTop={"5"}>
+                            <Button variant='solid' colorScheme='blue' onClick={handleSmartAccount} marginBottom={"5"} marginTop={"7"}>
                                 Get Started
                             </Button>
                         </Box>
